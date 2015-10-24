@@ -18,70 +18,133 @@ html {
   box-sizing: inherit;
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
-
-}
 
 header {
+  height: 800px;
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  background-size: cover;
+  padding-top: 32px;
 
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.tagline {
+  font-size: 38px;
+  text-align: center;
+  color: #fff;
+  margin: 190px 0 80px;
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 7px;
+  font-weight: 900;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-yellow {
+  background: #f9e42e;
+  color: #033048;
+}
+
+.btn-blue {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
+}
+
+.benefits {
+  padding: 100px 0 80px;
+}
+
+h3 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.benefits ul {
+  list-style: disc;
+  margin: 30px 0 0 80px;
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  padding: 70px 0 70px;
+  color: #fff;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 580px;
+  margin: 0 auto;
+}
+
+blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+}
+
+aside {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center
 }
 
 footer {
-
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
 
-.logo {
-      font-family: 
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
 }
 
 
