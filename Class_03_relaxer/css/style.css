@@ -1,0 +1,92 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+     margin-bottom: 20px;
+}
+
+.relaxer_signup {
+    clear: both;
+
+}
+
+.relaxer_body{
+    overflow: hidden;
+}
+
+.relaxer_body_main{
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    width: 70%;
+}
+
+.relaxer_body_side{
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    width: 22%;
+}
+
+
+
+.relaxer_nav_top{
+	background-color: #00204D;
+	display:block;
+    width:100%;
+    position:relative;
+    color: white;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    position:relative;
+    margin:0;
+
+
+}
+
+.relaxerlogo {
+	color: white;
+	float:left;
+    width: 320px;
+    font-size:28px;
+    margin: 27px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.relaxer_nav_top > .nav_menu  {
+	text-decoration: none;
+	color: #f9e42e;
+	display:block;
+	padding:10px;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    float:right;
+}
+
+.nav_menu > li  { 
+    display: inline-block;
+    padding: 20px;
+}
+.nav_menu > li a {
+    color: #f9e42e;
+    text-decoration: none;
+
+}
+
+.relaxer_signup{
+background-color: yellow;
+width:100%;
+
+}

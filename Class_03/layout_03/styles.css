@@ -1,0 +1,41 @@
+.container {
+    background: #D8D8D8;
+    border: 1px solid #AFAFAF;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+header,
+footer {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.main {
+    float: left;
+    width: 49%;
+    margin-right: 20px;
+}
+
+.container {
+    height: 100px;
+}
+
+.sidebar {
+    float: right;
+    width: 49%;
+}
+
+.socialmedia{
+     float:left; 
+     clear:both;
+     width: 100%;
+}
+
+
+.block{
+    float: left;
+    width: 23%;
+    padding: 6px;
+}

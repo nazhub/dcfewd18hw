@@ -1,0 +1,39 @@
+.container {
+    background: #D8D8D8;
+    border: 1px solid #AFAFAF;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+header,
+footer {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.main {
+    float: left;
+    width: 24%;
+    margin-right: 20px;
+}
+
+.main > .container {
+    height: 200px;
+}
+
+.sidebar {
+    float: right;
+    width: 24%;
+}
+
+.sidebar > .container {
+    height: 200px;
+}
+
+.middle  { 
+    float:left;
+    width: 49%;
+}
+.middle > .container {
+    height: 200px;
