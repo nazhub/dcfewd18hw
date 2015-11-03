@@ -16,6 +16,23 @@
      margin-bottom: 20px;
 }
 
+
+body {
+  color: #043049;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background: #f0efef;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+
 .relaxer_signup {
     clear: both;
 
@@ -23,18 +40,23 @@
 
 .relaxer_body{
     overflow: hidden;
+     width: 960px;
+  margin: 0 auto;
+
 }
 
 .relaxer_body_main{
     float: left;
     font-family: 'Open Sans', sans-serif;
-    width: 70%;
+    width: 72%;
+    margin-top: 80px;
 }
 
 .relaxer_body_side{
     float: right;
     font-family: 'Open Sans', sans-serif;
-    width: 22%;
+    width: 24%;
+    margin-top: 89px;
 }
 
 
@@ -57,11 +79,13 @@
 	color: white;
 	float:left;
     width: 320px;
-    font-size:28px;
-    margin: 27px;
+    font-size:48px;
+    margin-bottom: 27px;
+    margin-left: 60px;
     font-family: 'Open Sans', sans-serif;
     display: inline-block;
     padding: 10px;
+    font-weight: 800;
 
 }
 
@@ -73,6 +97,7 @@
     list-style: none;
     font-family: 'Open Sans', sans-serif;
     float:right;
+    margin-right:40px;
 }
 
 .nav_menu > li  { 
@@ -89,4 +114,107 @@
 background-color: yellow;
 width:100%;
 
+}
+
+.tittle_1 {
+    color: #043049;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.tittle_2{
+ color: #043049;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+
+
+.readmore {
+  text-align: right;
+  margin-top: 30px;
+}
+.readmore a {
+  color: #043049;
+  font-weight: 600;
+}
+
+
+
+.relaxer_body_side{
+line-height: 1.4;
+}
+
+
+
+
+.cat_menu li {
+      color: #043049;
+    font-size: 24px;
+}
+.sidereadmore{
+ float: left;
+ color: #043049;
+ font-weight: 400;
+ margin-bottom: 52px;
+}
+
+.categories {
+    font-size: 32px;
+    font-weight: 800;
+    color: #043049;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.aboutrelaxer{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #043049;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+aside {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+  font-size:48px;
+  font-weight: 800;
+
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
 }
