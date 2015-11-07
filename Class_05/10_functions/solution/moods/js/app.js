@@ -7,17 +7,20 @@ $(document).ready(function() {
     var myMood = $('#mood').val();
     $('#mood').val('');
     myMood = myMood.toLowerCase().trim();
+
     // if the user inputs excited / ecstatic / fantastic change the CSS class to 'excited'
     if(myMood == 'excited' || myMood == 'ecstatic' || myMood == 'fantastic') {
-      $('body').attr('class','excited');
+      $('.moodring > div').attr('class','excited');
     }
+
     // if the user inputs happy/good/great change the CSS class to 'happy'
     else if (myMood == 'happy' || myMood == 'good' || myMood == 'great') {
-      $('body').attr('class','happy');
+      $('.moodring > div').attr('class','happy');
     }
+
     // if the user inputs bad/angry change the CSS class to 'bad'
     else if (myMood == 'bad' || myMood == 'angry') {
-      $('body').attr('class','bad');
+      $('.moodring > div').attr('class','bad');
     }
   });
 });
