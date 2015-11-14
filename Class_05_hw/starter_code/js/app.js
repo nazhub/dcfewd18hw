@@ -45,7 +45,9 @@ if(cityname == "Maison Margiela" || cityname == "mmm"){
             $('body').attr('class','mmm');
        }
 
-
+else if (cityname == "sydney" || cityname == "syd") {
+    $('body').attr('class','unknown');
+}
 
 }
 
