@@ -1,0 +1,67 @@
+/* top header */
+.wrapper {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.hdr {
+    width: 100%;
+    background-color: black;
+    padding-bottom: 50px;
+    display: inline-block;
+    padding-top: 50px;
+
+
+}
+
+.hdr_logo {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+
+
+
+.hdr_tools {
+    float: right;
+    width: 35%;
+}
+
+.hdr_tools li{
+    margin-left: 10px;
+}
+
+/* Search Form Code */
+.form-control {
+    padding-right: 30px;
+}
+
+.form-control + .glyphicon {
+    position: absolute;
+    right: 0;
+    padding: 8px 27px;
+}
+
+/* Social Media Icons */
+.hdr_tools-search,
+.hdr_tools-social {
+    width: 100%;
+}
+
+.hdr_tools ul {
+    list-style: none;
+}
+
+.hdr_tools li {
+    display: inline-block;
+
+
+}
+
+.hdr_tools {}
+
+
+.navigation{
+        display: inline-block;
+
+}
